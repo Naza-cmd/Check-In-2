@@ -135,7 +135,7 @@ justify-content: flex-end;
 color: white;
 font-size: 40px;
 padding: 5%;
-}
+} 
 
 .fish-1 {top: 20%; right: 10%; width: 100px; animation-duration: 16s; transform: scaleX(-1);}
 .fish-2 {top: 60%; left: 80%; width: 70px; animation-duration: 6s; }
@@ -160,7 +160,7 @@ padding: 5%;
 .home-button {
     position :absolute;
     left: 20px;
-    top: 20px;
+    top: 50px;
     width: 50px;
     cursor: pointer;
 
@@ -172,13 +172,14 @@ padding: 5%;
     font-weight: bold;
 }
 
-.ocean-water{
-    position : relative;
-    background-color: #53A8E2;
+/*.ocean-water-1{
+    position :absolute;
+    background-color: #133002;
     border-radius: 20px;
     height: 1194px;
     padding: 20px;
 }
+    */
 
 .animal {
     transition: transform 0.3s ease-in-out;
@@ -191,17 +192,17 @@ padding: 5%;
     transform: scale(1.1);
 }
 
-.turtle {top: 50px; left: 80%; width: 383.562px;height: 204.272px;flex-shrink: 0;}
+.turtle {top: 50px; left: 69%; width: 383.562px;height: 204.272px;flex-shrink: 0;}
 .dolphin {top: 30px; left: 10%; width: 338px; height: 304px; flex-shrink: 0;}
-.jellyfish {bottom: 20px; left: 50%; width: 308px; height: 171px;flex-shrink: 0;}
+.jellyfish {top:100px; left: 50%; width: 308px; height: 171px;flex-shrink: 0;}
 
 .squid {top: 50px; left: 80%;  width: 383.562px;height: 204.272px;flex-shrink: 0;}
 .whale {top: 30px; left: 10%;  width: 383.562px;height: 204.272px;flex-shrink: 0;}
-.crab {bottom: 20px; left: 50% ;  width: 383.562px;height: 204.272px;flex-shrink: 0;}
+.crab {top: 60px; left: 50% ;  width: 383.562px;height: 204.272px;flex-shrink: 0;}
 
 .angeler { top: 50px; left: 80%;}
 .starfish {top: 30px; left: 10%;}
-.fangtooth {bottom: 20px; left: 50% ;}
+.fangtooth {top: 20px; left: 50% ;}
 
 
 
